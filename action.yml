@@ -1,6 +1,9 @@
 name: 'Get Branch Name Only'
 description: 'Removes the /refs/heads/ from the GITHUB_REF and provides an output'
 author: 'Benjamin Maynard'
+outputs:
+  branch:
+    description: 'The branch name'
 runs:
   using: 'docker'
   image: 'Dockerfile'
