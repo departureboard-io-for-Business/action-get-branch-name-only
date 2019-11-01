@@ -4,6 +4,8 @@ author: 'Benjamin Maynard'
 outputs:
   branch:
     description: 'The branch name'
+  repo:
+    description: 'The repo name lowercase'
 runs:
   using: 'docker'
   image: 'Dockerfile'
