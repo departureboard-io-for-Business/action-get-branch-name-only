@@ -6,6 +6,8 @@ outputs:
     description: 'The branch name'
   repo:
     description: 'The repo name lowercase'
+  reposhortname:
+    description: 'The repo shortname lowercase'
 runs:
   using: 'docker'
   image: 'Dockerfile'
